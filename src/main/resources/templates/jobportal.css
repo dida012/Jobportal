@@ -1,0 +1,68 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 10px;
+}
+
+#search {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#recent-jobs ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#recent-jobs ul li {
+    margin-bottom: 20px;
+}
+
+#recent-jobs h3 {
+    margin: 0;
+}
+
+#recent-jobs h4 {
+    margin-top: 5px;
+    font-weight: normal;
+    color: #777;
+}
+
+#recent-jobs p {
+    color: #333;
+}
+
+#recent-jobs a {
+    display: inline-block;
+    padding: 5px 5px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}

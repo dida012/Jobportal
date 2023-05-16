@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title> Jobs </title>
+    <link rel="stylesheet" type="text/css" href="jobportal.css">
+    <script src="jobportal.js"></script>
+</head>
+<body>
+<center>
+    <h1>Job Form</h1>
+<form>
+<div class="job-listing">
+    <br/><br>
+    <label for="title">Title:</label>
+    <input type="text" id="title" name="title" required>
+    <br/><br>
+    <label for="description">Description:</label>
+    <textarea id="description" name="description" rows="3" required></textarea>
+    <br/><br>
+    <label for="salary">Salary:</label>
+    <input type="text" id="salary" name="salary">
+    <br/><br>
+    <label for="location">Location:</label>
+    <input type="text" id="location" name="location" required>
+    <br/><br>
+    <label for="available">Available:</label>
+    <input type="date" id="available" name="available" required>
+    <br/><br>
+    <label for="companyName">Company Name:</label>
+    <input type="text" id="companyName" name="companyName" required>
+    <br/><br>
+    <label for="phoneNumber">Phone Number:</label>
+    <input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]{10}" required>
+<br/><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <br/><br>
+    <input type="submit" value="Submit">
+</div>
+</form>
+</center>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register of User</title>
+    <link rel="stylesheet" type="text/css" href="jobportal.css">
+    <script src="jobportal.js"></script>
+</head>
+<body>
+<center>
+<h1>Sign Up</h1>
+<form action="signup.php" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <br/><br/>
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+    <br/><br/>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    <br/><br/>
+    <label for="confirm-password">Confirm Password:</label>
+    <input type="password" id="confirm-password" name="confirm-password" required>
+    <br/><br/>
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address" placeholder="Enter your address" required>
+    <br/><br/>
+    <label for="phone">Phone:</label>
+    <input type="text" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+    <br/><br/>
+    <label for="pdfFile">Upload Resume/CV file:</label>
+    <input type="file" id="pdfFile" name="pdfFile" accept=".pdf" required>
+    <br/><br/>
+    <a href="Login_form.html"> Sign Up</a>
+</form>
+    </center>
+</body>
+</html>
